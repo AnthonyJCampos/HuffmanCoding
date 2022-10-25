@@ -90,12 +90,12 @@ int main(){
 	std::cout << "test:  " << code.getWord("test") << std::endl;
 	std::cout << "least: " << code.getWord("least") << std::endl;
 
-	std::cout << "Holy SHIT STICK hell: " << code.getWord("Holy SHIT STICK hell") << std::endl;
+	std::cout << "Hello to the World: " << code.getWord("Hello to the World") << std::endl;
 	std::cout << std::endl;
 
 	std::string testCode = code.getWord("test");
 	std::string leastCode = code.getWord("least");
-	std::string hellCode = code.getWord("holy SHIT STICK hell");
+	std::string hellCode = code.getWord("Hello to the World");
 
 	// Simple test of decoding words
 	std::cout << "+=====+ decoding Test +=====+" << std::endl;
